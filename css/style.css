@@ -1,0 +1,211 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px;
+}
+
+.search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Banner */
+.banner {
+  background-image: url(https://portales.inacap.cl/noticias/destacadas/destacadas-2024/-atencion-estudiantes-del-cft-e-ip-inacap-se-extiende-plazo-de-segunda-postulacion-a-beneficios-estudiantiles-para-educacion-superior-2024);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 300px 0; /* Corregí 200x por 200px */
+}
+
+
+.contenedor-botones {
+  text-align: center; 
+}
+.ver-mas {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Medidas COVID-19 */
+.medidas-covid {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.medidas-covid h2 {
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 5px 0;
+}
+
+.noticias {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.noticias a {
+  text-decoration: none;
+}
+
+.noticias img {
+  width: 200px;
+}
+
+/* Diplomados */
+.diplomados {
+  padding: 50px 0;
+}
+
+.diplomados h2 {
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 10px 0;
+}
+
+.diplomados-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.diplomado {
+  text-align: center;
+}
+
+.diplomado img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Organización */
+.organizacion {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.organizacion h2 {
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 10px 0;
+}
+
+.organizacion-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.organizacion a {
+  text-decoration: none;
+}
+
+.organizacion img {
+  width: 200px;
+}
+
+/* Agenda */
+.agenda {
+  padding: 50px 0;
+}
+
+.agenda h2 {
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 10px 0;
+}
+
+.agenda-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.agenda img {
+  width: 300px;
+}
+
+/* Video */
+.video {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.video h2 {
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 10px 0;
+}
+
+.video-container {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.redes img {
+  width: 40px;
+  margin: 0 5px;
+}
